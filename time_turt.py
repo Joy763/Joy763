@@ -1,0 +1,16 @@
+import time 
+from turtle import * 
+time = (time.strftime("%I:%M:%S:%p"))
+write(time,align="center",font=("arial",40,"bold"))
+pensize(5)
+forward(160)
+left(90)
+forward(60)
+left(90)
+forward(320)
+left(90)
+forward(60)
+left(90)
+forward(160)
+hideturtle()
+done()
